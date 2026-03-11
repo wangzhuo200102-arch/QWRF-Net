@@ -24,3 +24,12 @@ QWRF-Net/
 ├── model.py
 ├── rectified_flow.py
 └── time_sampler.py
+
+
+Pretrained Weights
+
+The pretrained checkpoints can be downloaded from Baidu Netdisk:
+
+Link: https://pan.baidu.com/s/1Psa0bXa54Cl2aIPKIqQJog?pwd=qwrf
+
+Extraction code: qwrf
