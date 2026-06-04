@@ -1,6 +1,6 @@
 # QWRF-Net
 
-Official implementation of **QWRF-Net: A Hybrid Quantum-Wavelet Rectified Flow Network for Precipitation Nowcasting**.
+Official implementation of **QWRF-Net: A Quantum–Wavelet Framework with Rectified Flow for Short-Term Precipitation Nowcasting**.
 
 QWRF-Net is a conditional generative precipitation nowcasting model that combines:
 
