@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.checkpoint import checkpoint as _ckpt
 from torch.amp import autocast
-
 # 尝试导入可选依赖
 try:
     import pennylane as qml
