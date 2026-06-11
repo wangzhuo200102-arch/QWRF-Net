@@ -3,7 +3,6 @@ import numpy as np
 import torch
 from torch.distributions import LogisticNormal
 
-
 def extract_hw(model_kwargs):
     """简化版本：只处理2D数据的高度和宽度"""
     # Force fp16 input to fp32 to avoid nan output
