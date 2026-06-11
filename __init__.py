@@ -4,7 +4,6 @@ from tqdm import tqdm
 from .rectified_flow import RFlowScheduler
 from .time_sampler import timestep_transform_2d as timestep_transform
 
-
 def dynamic_thresholding(x, ratio=0.995, base=6.0):
     s = torch.quantile(x.abs().flatten(), ratio)
     s = max(s, base)
